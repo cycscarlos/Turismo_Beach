@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agencia Turismo | Playas</title>
+
+    <!-- SEO & Google Crowlers Analitics -->
+    <meta name="author" content="carlos-colmenares-a.netlify.app" />
+    <meta name="robots" content="index, follow, all" />
+    <meta name="googlebot" content="index, follow, all" />
+    <meta name="google" content="translate" />
+    <meta name="revisit-after" content="7days" />
+    <meta name="theme-color" content="#14445C" />
+
+    <!-- Meta Datos Estructurados -->
+    <meta itemprop="name" content="Turismo Beach" />
+    <meta
+      itemprop="description"
+      content="Lo que buscabas! &#128073;Agencia de Turismo Playero."
+    />
+    <meta
+      itemprop="image"
+      content="https://turismo-beach.netlify.app/assets/img/home1.png"
+    />
+    <link rel="canonical" href="https://turismo-beach.netlify.app" />
+
+    <!-- Meta Datos normales del website -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <!--======== REMIXICONS =========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--========= SWIPER CSS =========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--========= CSS ==========-->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Turismo Beach</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Acerca de</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Descubrir</a>
+            </li>
+            <li class="nav__item">
+              <a href="#place" class="nav__link">Lugares</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacto</a>
+            </li>
+
+            <!--# Hidden Navegation -->
+            <li class="nav__item">
+              <a href="#video" class="nav__link nav__oculto"></a>
+              <a href="#experiencia" class="nav__link nav__oculto"></a>
+              <a href="#registro" class="nav__link nav__oculto"></a>
+              <a href="#sitios" class="nav__link nav__oculto"></a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!--# Theme change button -->
+            <span class="change-theme-name">Modo Obscuro</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--======== HOME =========-->
+      <section class="home" id="home">
+        <img src="assets/img/home1.jpg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">Descubra su lugar</span>
+            <h1 class="home__data-title">
+              Explore las <br />
+              Mejores
+              <b
+                >y Más Bellas <br />
+                Playas</b
+              >
+            </h1>
+            <a href="#discover" class="button">Explorar</a>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://api.whatsapp.com/send?phone=584243391729&text=¡Bienvenidos al chat de Turismo Beach! Por favor, envíanos un mensaje"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/cycsingenieria"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://twitter.com/@cycsingenieria?lang=en"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title"
+                >6 lugares preciosos para visitar</span
+              >
+              <a
+                href="#place"
+                class="button button--flex button--link home__info-button"
+              >
+                Más <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="assets/img/home2.jpg" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======== ABOUT ==========-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">Las Mejores Playas</h2>
+            <p class="about__description">
+              Acá puedes encontrar los más bellos y agradables lugares, a los
+              mejores precios y con descuentos especiales; solo escoges el
+              lugar, que nosotros te llevaremos allí...
+            </p>
+            <a href="#registro" class="button">Reservaciones</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img
+                src="assets/img/morrocoy/about1.jpg"
+                alt=""
+                class="about__img-one"
+              />
+            </div>
+
+            <div class="about__img-overlay">
+              <img
+                src="assets/img/morrocoy/about2.jpg"
+                alt=""
+                class="about__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=========== DISCOVER ===========-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">
+          Descubra los lugares <br />
+          más atractivos del país
+        </h2>
+
+        <div class="discover__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--========= DISCOVER 1 ==========-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/morrocoy/discover1.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Parque Morrocoy</h2>
+                <span class="discover__description">tours diarios</span>
+              </div>
+            </div>
+
+            <!--========= DISCOVER 2 ==========-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/morrocoy/discover2.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Los Juanes</h2>
+                <span class="discover__description">tours semanales</span>
+              </div>
+            </div>
+
+            <!--========= DISCOVER 3 ==========-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/morrocoy/discover3.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Cayo Sombrero</h2>
+                <span class="discover__description">tours semanales</span>
+              </div>
+            </div>
+
+            <!--========= DISCOVER 4 ==========-->
+            <div class="discover__card swiper-slide">
+              <img
+                src="assets/img/morrocoy/discover4.jpg"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Cueva del Indio</h2>
+                <span class="discover__description">tours diarios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= EXPERIENCE =========-->
+      <section class="experience section" id="experiencia">
+        <h2 class="section__title">
+          Nuestra Experiencia <br />
+          es la base de su tranquilidad y confort
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__content grid">
+            <div class="experience__data">
+              <h2 class="experience__number">20</h2>
+              <span class="experience__description"
+                >Años <br />
+                de Experiencia</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">1250+</h2>
+              <span class="experience__description"
+                >tours <br />
+                completados</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">75+</h2>
+              <span class="experience__description"
+                >Destinos <br />
+                Turisticos alcanzados</span
+              >
+            </div>
+          </div>
+
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="assets/img/experience1.jpg"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="assets/img/experience2.jpg"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========= VIDEO ==========-->
+      <section class="video section" id="video">
+        <h2 class="section__title">Video Tour</h2>
+
+        <div class="video__container container">
+          <p class="video__description">
+            A través de nuestros vídeos podrá encontrar muchísimos lugares
+            preciosos y agradables para el disfrute de su familia.
+          </p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/video/video.mp4" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--=========== PLACES ==========-->
+      <section class="place section" id="place">
+        <h2 class="section__title">Escoga su Lugar</h2>
+
+        <div class="place__container container grid">
+          <!--========= PLACES CARD 1 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place1.jpg"
+              alt="Cayo Varadero"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Punta Varadero</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$124</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Punta Varadero <br /><span
+                  >Es una de las espectaculares playas que posee el Parque
+                  Nacional Morrocoy, su costa se extiende aproximadamente a un
+                  kilómetro, está conformada por hermosas aguas en tonalidades
+                  turquesas hasta llegar a un azul que se confunde con el
+                  celeste del cielo, es una zona rica en vegetación.
+                </span>
+              </h2>
+            </div>
+          </div>
+
+          <!--========= PLACES CARD 2 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place2.jpg"
+              alt="Cayo Sal"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">5,0</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Cayo Sal</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$79</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Cayo Sal<br /><span
+                  >Este grandioso cayo es conocido también como La Piscina por
+                  no poseer playa de arena, la única ruta para llegar a este
+                  cayo es marítima. Es un lugar bellísimo y bastante famoso que
+                  presenta gran afluencia de lanchas deportivas y no posee
+                  ninguna playa; razón por la cual las lanchas se anclan unas a
+                  otras.</span
+                >
+              </h2>
+            </div>
+          </div>
+
+          <!--========= PLACES CARD 3 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place3.jpg"
+              alt="Cayo Muerto"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,9</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Cayo Muerto</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$47</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Cayo Muerto<br /><span
+                  >Ubicado en el Parque Nacional Morrocoy. Es la isla más
+                  cercana a Chichiriviche y la que presenta mayor cantidad de
+                  vegetación tiene muchas palmeras. Posee aguas tranquilas y
+                  cristalinas, arena blanca.</span
+                >
+              </h2>
+            </div>
+          </div>
+
+          <!--========= PLACES CARD 4 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place4.jpg"
+              alt="Cayo Peraza"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Cayo Peraza</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$58</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Cayo Peraza<br /><span
+                  >Está situado en Chichiriviche, se distingue por ser uno de
+                  los más exclusivos y solitarios; el acceso se dificulta un
+                  poco cuando hay oleaje pero no es imposible llegar. Es
+                  excelente para disfrutar de su fauna marina con Snorkel</span
+                >
+              </h2>
+            </div>
+          </div>
+
+          <!--========= PLACES CARD 5 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place5.jpg"
+              alt="Cayo Sombrero"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Cayo Los Juanes</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$199</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Cayo Los Juanes<br /><span
+                  >Los Juanes cuenta con dos grandiosas islas para practicar
+                  snorkeling, ya que la fauna submarina se refugia entre los
+                  corales de diversos colores; sus aguas de poca profundidad son
+                  perfectas para este tipo de deporte; siendo este posiblemente
+                  un sitio único y uno de los más frecuentados del Parque
+                  Nacional Morrocoy.</span
+                >
+              </h2>
+            </div>
+          </div>
+
+          <!--========= PLACES CARD 6 ==========-->
+          <div class="place__card">
+            <img
+              src="assets/img/morrocoy/place6.jpg"
+              alt="Cueva del indio"
+              class="place__img"
+            />
+
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,8</span>
+              </span>
+
+              <div class="place__data">
+                <h3 class="place__title">Paseo a la Cueva del Indio</h3>
+                <span class="place__subtitle">Parque Morrocoy</span>
+                <span class="place__price">$143</span>
+              </div>
+            </div>
+
+            <div class="place__lightbox">
+              <h2>
+                Cueva del Indio<br /><span
+                  >Esta cueva es cielo abierto, por lo cual no debe temer si no
+                  le gustan los lugares encerrados. Después de pasar entre unas
+                  rocas, se ve una pared de roca inmensa con estalagtitas. La
+                  vegetación abundante, gracias al calor y a la humedad, parece
+                  salir de todas partes. Después del recorrido hacia adentro, al
+                  devolverse hacia el muelle, se encuentran unos petroglíficos
+                  que evidencian la existencia de una civilización previa a la
+                  nuestra y que resultan muy interesantes de ver.</span
+                >
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========= SUBSCRIBE ========-->
+      <!-- <section class="subscribe section" id="subscribe">
+        <div class="subscribe__bg">
+          <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">
+              Subscríbase a nuestro <br />
+              Newsletter
+            </h2>
+            <p class="subscribe__description">
+              Subscríbase a nuestro newsletter y obtenga un descuento especial
+              del 30%.
+            </p>
+
+            <form action="" class="subscribe__form">
+              <input
+                type="text"
+                placeholder="Correo Electrónico"
+                class="subscribe__input"
+              />
+
+              <button class="button">Subscribir</button>
+            </form>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <!--======= FORMULARIO DE REGISTRO ========-->
+
+    <section class="section2 section" id="registro">
+      <div class="container container-registro">
+        <!-- Hero Image Box-->
+        <article class="hero-image-registro">
+          <aside
+            class="hero-image-registro-opacity"
+            style="--hero-opacity-color: var(--black-color-opacity)"
+          >
+            <div class="hero-image-registro-content">
+              <div class="section__title registro__title">
+                <h2>Registro</h2>
+              </div>
+              <!-- <form target="_blank" action="https://formsubmit.co/d6d904e1a72f513c29dd41f58e8068e8" method="POST" class="registro-form box-shadow-form"> -->
+              <form
+                target="_blank"
+                action="d6d904e1a72f513c29dd41f58e8068e8"
+                method="POST"
+                class="registro-form box-shadow-form"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Confirmación de Registro!"
+                />
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="¡Hola! Gracias por Confirmar; Nos vemos en la boda!"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <!-- Solo acepta letras (cualquier case) y espacios en blancos -->
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Nombre y Apellido*"
+                  title="Solo acepta letras y espacios en blanco"
+                  pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                  required
+                  class="box-shadow-inputs"
+                />
+                <!-- Solo acepta números y hasta un máximo de 8 carácteres -->
+                <input
+                  type="text"
+                  name="cedula"
+                  placeholder="Cédula de Identidad*"
+                  title="Solo acepta números y hasta un máximo de 8 carácteres"
+                  pattern="^[0123456789]{1,8}"
+                  required
+                  class="box-shadow-inputs"
+                />
+                <!-- Solo acepta números y hasta un máximo de 11 carácteres -->
+                <input
+                  type="text"
+                  name="telefono"
+                  placeholder="Número de Teléfono*"
+                  title="Solo acepta números y hasta un máximo de 11 carácteres"
+                  pattern="^[0123456789]{1,11}"
+                  required
+                  class="box-shadow-inputs"
+                />
+                <!-- Solo acepta formato de Email, con el signo de arroba (@) incluido -->
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Correo Electrónico*"
+                  title="Email incorrecto"
+                  pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                  required
+                  class="input box-shadow-inputs"
+                />
+                <label class="box-shadow-inputs" for="posada"
+                  >Elige la Posada de Hospedaje*:</label
+                >
+                <div class="custom-select">
+                  <select name="posada" id="posada" class="box-shadow-inputs">
+                    <option value="Posada Casa Manantial">
+                      Posada Casa Manantial
+                    </option>
+                    <option value="Posada Kalamar">Kalamar</option>
+                    <option value="Posada Cocolandia">Cocolandia</option>
+                    <option value="Cabañas La Aldea">Cabañas La Aldea</option>
+                    <option value="Posada Asams Beach">Asams Beach</option>
+                    <option value="Posada Plaza Sur Beach">
+                      Plaza Sur Beach
+                    </option>
+                  </select>
+                </div>
+                <input
+                  class="registro-btn box-shadow-white"
+                  type="submit"
+                  value="CONFIRMAR"
+                />
+              </form>
+
+              <div id="gracias" class="modal">
+                <div class="modal-content">
+                  <article class="contact-form-response">
+                    <h3>
+                      ¡Muchas Gracias!
+                      <br />
+                      Por confirmar
+                    </h3>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                      <path
+                        d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z"
+                      />
+                      <path
+                        d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z"
+                      />
+                    </svg>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </article>
+      </div>
+    </section>
+
+    <!--======= SITIOS TURISTICOS (Slider Infinito) ========-->
+
+    <section class="sitiosTuristicos section" id="sitios">
+      <h2 class="section__title">
+        Paraiso Tropical Colmado de <br /><br />
+        ...FANTASÍAS!
+      </h2>
+
+      <div class="contenedor-sitios">
+        <div class="box-titulo-sitios">
+          <div class="posicion-box-texto">
+            <p class="parrafo1-sitios">SITIOS</p>
+            <h2 class="parrafo2-sitios">BELLÍSIMOS</h2>
+            <p class="parrafo3-sitios">PARA NO OLVIDAR</p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel1.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel2.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel3.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel4.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel5.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel6.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel7.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel8.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel9.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel10.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel11.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/img/morrocoy/carrousel12.jpg"
+                height="250"
+                width="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========== FOOTER ==========-->
+
+    <footer class="footer section" id="contact">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Turismo Beach</h3>
+            <p class="footer__description">
+              Viaje a su destino preferido, <br />
+              nosotros haremos que la pases <br />
+              genial!!!
+            </p>
+            <div class="footer__social">
+              <a
+                href="https://api.whatsapp.com/send?phone=584243391729&text=¡Hola, bienvenidos a MASSMOOD! Envíanos un mensaje y te responderemos enseguida."
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Accesos Directos</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#about" class="footer__link">Acerca de</a>
+              </li>
+              <li class="footer__item">
+                <a href="#discover" class="footer__link">Descubrir</a>
+              </li>
+              <li class="footer__item">
+                <a href="#place" class="footer__link">Lugares</a>
+              </li>
+              <li class="footer__item">
+                <a href="#video" class="footer__link">Video</a>
+              </li>
+              <li class="footer__item">
+                <a href="#sitios" class="footer__link">Sitios Maravillosos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Empresa</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#experiencia" class="footer__link">Nosotros</a>
+              </li>
+              <li class="footer__item">
+                <a href="#registro" class="footer__link">Reservaciones</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Planes y Precios</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Contáctenos</h3>
+
+            <ul>
+              <li class="footer__item">
+                <i class="fas fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Av. Veracruz, calle Auyantepuy, Edif. PWC, Piso 7, Ofic. 7-A,
+                  Chuao, Urb. Las Mercedes, Caracas, Venezuela
+                </span>
+              </li>
+
+              <li class="footer__item">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                <span> +58 414 339 17 29</span>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__item-link"
+                  ><i class="fas fa-envelope" aria-hidden="true"></i
+                ></a>
+                <span>
+                  <a
+                    href="mailto:massmoodagency@gmail.com"
+                    class="footer__link-mail"
+                    >massmoodagency@gmail.com</a
+                  >
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--# ======= FOOTER COPYRIGHTS ========-->
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2021 <span> Diseñado </span>Carlos Colmenares A. Todos los
+            derechos reservados.
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Términos y Condiciones</a>
+            <a href="#" class="footer__terms-link">Políticas de Privacidad</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--======== SCROLL REVEAL ========-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--======== SWIPER JS =========-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--======== MAIN JS =========-->
+    <script src="assets/js/main.js"></script>
+
+    <!--======== Formulario de Registro =========-->
+    <script src="assets/js/emailForm.js"></script>
+  </body>
+</html>
