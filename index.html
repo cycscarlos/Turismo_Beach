@@ -314,14 +314,23 @@
             preciosos y agradables para el disfrute de su familia.
           </p>
 
-          <div class="video__content">
+          <div class="video__content div-desktop">
             <video id="video-file">
               <source src="assets/video/video.mp4" type="video/mp4" />
             </video>
 
-            <button class="button button--flex video__button" id="video-button">
+            <button
+              class="button button--flex video__button div-desktop"
+              id="video-button"
+            >
               <i class="ri-play-line video__button-icon" id="video-icon"></i>
             </button>
+          </div>
+
+          <!--# Solo para mobiles viewport  -->
+
+          <div class="div-mobile">
+            <img src="assets/img/BGvideo.jpg" alt="Beach image" />
           </div>
         </div>
       </section>
@@ -912,6 +921,20 @@
                     href="mailto:massmoodagency@gmail.com"
                     class="footer__link-mail"
                     >massmoodagency@gmail.com</a
+                  >
+                </span>
+              </li>
+
+              <li class="footer__item">
+                <a href="#" class="footer__item-link"
+                  ><i class="ri-external-link-line"></i
+                ></a>
+                <span>
+                  <a
+                    href="https://massmood.netlify.app"
+                    target="_blank"
+                    class="footer__link-web"
+                    >Massmood Agency website</a
                   >
                 </span>
               </li>
