@@ -1,12 +1,12 @@
 
-//* ----------------- SHOW MENU ------------------------ */
+//* ----------------- SHOW MENU  */
 
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
 
 
-//* ----------------- MENU SHOW ------------------------ */
+//* ----------------- MENU SHOW  */
 /* Validate if constant exists */
 if(navToggle){
     navToggle.addEventListener('click', () =>{
@@ -15,7 +15,7 @@ if(navToggle){
 }
 
 
-//* ----------------- MENU HIDDEN ------------------------ */
+//* ----------------- MENU HIDDEN  */
 /* Validate if constant exists */
 if(navClose){
     navClose.addEventListener('click', () =>{
@@ -24,7 +24,7 @@ if(navClose){
 }
 
 
-//* -----------------R EMOVE MENU MOBILE ----------------------- */
+//* ------------- REMOVE MENU MOBILE */
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -35,7 +35,7 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-//* ----------------- CHANGE BACKGROUND HEADER ----------------- */
+//* ----------- CHANGE BACKGROUND HEADER  */
 function scrollHeader(){
     const header = document.getElementById('header')
     // When the scroll is greater than 100 viewport height, add the scroll-header class to the header tag
@@ -44,7 +44,7 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 
-//* ----------------- SWIPER DISCOVER ------------------------ */
+//* ----------------- SWIPER DISCOVER  */
 let swiper = new Swiper(".discover__container", {
     effect: "coverflow",
     grabCursor: true,
@@ -58,7 +58,7 @@ let swiper = new Swiper(".discover__container", {
 })
 
 
-//* ----------------- VIDEO  ------------------------ */
+//* ----------------- VIDEO   */
 const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
@@ -92,7 +92,7 @@ videoFile.addEventListener('ended', finalVideo)
 
 
 
-//* ----------------- SHOW SCROLL UP ------------------------ */
+//* ----------------- SHOW SCROLL UP */
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
 
@@ -103,7 +103,7 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 
-//* ----------------- SCROLL SECTIONS ACTIVE LINKS ---------- */
+//* ------- SCROLL SECTIONS ACTIVE LINKS  */
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -123,7 +123,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-//* ----------------- SCROLL REVEAL ANIMATION -------------- */
+//* ------------ SCROLL REVEAL ANIMATION */
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
@@ -154,7 +154,7 @@ sr.reveal(`.about__img-overlay,
     interval: 100,
 })
 
-//* ----------------- DARK LIGHT THEME -------------- */
+//* --------------- DARK LIGHT THEME  */
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'ri-sun-line'
