@@ -778,7 +778,7 @@ input {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  background-image: url("/assets/img/registro.jpg");
+  background-image: url("./../img/registro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
