@@ -34,7 +34,7 @@
   --max-width: 3000px;
   --first-color-registro: #ff4c00;
   --first-color-opacity: rgba(255, 76, 0, 0.75);
-  --white-color-opacity: rgba(255, 255, 255, 0.3);
+  --white-color-opacity: rgba(255, 255, 255, 0.6);
   --black-color-opacity: rgba(0, 0, 0, 0.5);
 
   /*# Slider infinita (Sitios Turisticos */
@@ -778,7 +778,8 @@ input {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  background-image: url("./../img/registro.jpg");
+  /* background-image: url("./../img/registro.jpg"); */
+  background-image: url("./../img/BGvideo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -864,8 +865,8 @@ input {
 }
 
 .registro-form label {
-  /* color: var(--white-color); */
-  color: var(--first-color-registro);
+  color: var(--color-twitter);
+  /* color: var(--first-color-registro); */
   border: 0;
   padding-left: 0;
 }
@@ -878,7 +879,8 @@ input {
   font-weight: 500;
   text-align: center;
   text-decoration: none;
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: black;
   background: var(--white-color-opacity);
   border: 0;
   letter-spacing: 1px;
