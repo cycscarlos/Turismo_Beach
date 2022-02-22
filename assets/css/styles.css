@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap"); */
 
-/*# =============== GOOGLE FONTS ===============*/
+/** =============== GOOGLE FONTS ===============*/
 
 @font-face {
   font-family: "OpenSans";
@@ -20,24 +20,24 @@
 :root {
   --header-height: 3rem;
 
-  /*# Social Media icons colors */
+  /** Social Media icons colors */
   --color-whatsapp: #00bd2c;
   --color-twitter: #1da1f2;
   --color-instagram: #833ab4;
   --color-linkedin: #0a66c2;
 
-  /*# Base colors */
+  /** Base colors */
   --color-light: rgb(30, 82, 113);
   --color-green: #08f1af;
 
-  /*# Formulario de Registro */
+  /** Formulario de Registro */
   --max-width: 3000px;
   --first-color-registro: #ff4c00;
   --first-color-opacity: rgba(255, 76, 0, 0.75);
   --white-color-opacity: rgba(255, 255, 255, 0.6);
   --black-color-opacity: rgba(0, 0, 0, 0.5);
 
-  /*# Slider infinita (Sitios Turisticos */
+  /** Slider infinita (Sitios Turisticos */
   --background-slider: transparent;
   --background-slider-gradient: linear-gradient(
     to right,
@@ -386,7 +386,7 @@ input {
   width: max-content;
 }
 
-/*# ------ ¡New! Social Media icons ------ */
+/** ------ ¡New! Social Media icons ------ */
 
 .home__social-link .fab.fa-twitter:hover {
   color: var(--color-twitter);
@@ -411,7 +411,7 @@ input {
   color: var(--color-whatsapp);
 }
 
-/*# ------ ¡end! Social Media icons ------ */
+/** ------ ¡end! Social Media icons ------ */
 
 .home__info {
   background-color: var(--first-color);
@@ -655,7 +655,7 @@ input {
 .place__container {
   grid-template-columns: 1fr;
   justify-content: center;
-  /*#  ¡New! */
+  /**  ¡New! */
   place-items: center;
 }
 
@@ -726,7 +726,7 @@ input {
   padding: 0.75rem 1rem;
 }
 
-/*# Lightbox para las place cards  */
+/** Lightbox para las place cards  */
 
 .place__card .place__lightbox {
   position: absolute;
@@ -767,7 +767,7 @@ input {
 
 /*======== FORMULARIO DE REGISTRO =========*/
 
-/*# Zona REGISTRO: HERO-IMAGE */
+/** Zona REGISTRO: HERO-IMAGE */
 
 .container-registro {
   max-width: var(--max-width);
@@ -786,7 +786,7 @@ input {
   background-attachment: scroll;
 }
 
-/*# Zona REGISTRO: Contenidos  */
+/** Zona REGISTRO: Contenidos  */
 
 .hero-image-registro-content {
   display: flex;
@@ -795,7 +795,7 @@ input {
   flex-direction: column;
 }
 
-/*# Zona REGISTRO: Titulo  */
+/** Zona REGISTRO: Titulo  */
 
 .registro__title h2 {
   margin-top: 2rem;
@@ -805,7 +805,7 @@ input {
   color: var(--white-color);
 }
 
-/*#  Zona REGISTRO: Formulario */
+/**  Zona REGISTRO: Formulario */
 
 .box-shadow-form {
   box-shadow: 0px 2.5px 2.5px 1px rgba(0, 0, 0, 0.5);
@@ -902,7 +902,7 @@ input {
   color: var(--text-color);
 }
 
-/*#  Zona REGISTRO: Ventana Modal */
+/**  Zona REGISTRO: Ventana Modal */
 
 .modal#gracias:target {
   opacity: 1;
@@ -946,7 +946,7 @@ input {
   fill: var(--first-color-registro);
 }
 
-/*# Zona REGISTRO: Media Queries para iPhone 5/SE */
+/** Zona REGISTRO: Media Queries para iPhone 5/SE */
 
 @media screen and (max-width: 320px) {
   .hero-image-registro-content .section-title h2 {
@@ -975,7 +975,7 @@ input {
   }
 }
 
-/*# Zona REGISTRO: Media Queries para iPhone XS */
+/** Zona REGISTRO: Media Queries para iPhone XS */
 
 @media screen and (max-width: 414px) {
   .section-title h2 {
@@ -1014,7 +1014,7 @@ input {
   overflow: hidden;
   border: none;
 
-  /*# Estilos específicos del carrousel */
+  /** Estilos específicos del carrousel */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1098,7 +1098,7 @@ input {
   width: calc(250px * 14);
 }
 
-/*# Se define el tamaño de las imágenes en la cinta transportadora */
+/** Se define el tamaño de las imágenes en la cinta transportadora */
 
 .slider .slide {
   width: 250px;
@@ -1112,7 +1112,7 @@ input {
   border-radius: 50%;
 }
 
-/*# End Clientes (Cinta transportadora) */
+/** End Clientes (Cinta transportadora) */
 
 /*=============== FOOTER ===============*/
 .footer__container {
@@ -1143,7 +1143,7 @@ input {
   margin-right: var(--mb-1-25);
 }
 
-/*# ------ ¡New! Social Media icons ------ */
+/** ------ ¡New! Social Media icons ------ */
 
 .footer__social i {
   color: var(--text-color);
@@ -1177,7 +1177,7 @@ input {
   font-size: 20px;
   color: var(--color-whatsapp);
 }
-/*# ------ ¡end! Social Media icons ------ */
+/** ------ ¡end! Social Media icons ------ */
 
 .footer__subtitle {
   margin-bottom: var(--mb-1);
@@ -1224,7 +1224,7 @@ input {
   color: var(--text-color-light);
 }
 
-/*# -------- Cuerpo del Copyright ------ */
+/** -------- Cuerpo del Copyright ------ */
 
 .footer__rights {
   display: flex;
@@ -1297,7 +1297,7 @@ input {
 
 /*============ MEDIA QUERIES Generales ============*/
 
-/*# For small devices */
+/** For small devices */
 @media screen and (max-width: 340px) {
   .place__container {
     grid-template-columns: 1fr;
@@ -1322,7 +1322,7 @@ input {
   }
 }
 
-/*# For medium devices */
+/** For medium devices */
 @media screen and (min-width: 568px) {
   .video__container {
     display: grid;
@@ -1457,7 +1457,7 @@ input {
   }
 }
 
-/*# For large devices */
+/** For large devices */
 @media screen and (min-width: 1024px) {
   .container {
     margin-left: auto;
@@ -1525,7 +1525,7 @@ input {
   .footer__content {
     justify-items: center;
   }
-  /*# SWIPER. Aumento del tamaño de las imagenes para viewport tipo Desktop */
+  /** SWIPER. Aumento del tamaño de las imagenes para viewport tipo Desktop */
   /* .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -1534,7 +1534,7 @@ input {
     border: 1px solid red;
   } */
 
-  /*# SWIPER. Se re-inserta el contenido o texto dentro de la Card con la imagen aumentada  */
+  /** SWIPER. Se re-inserta el contenido o texto dentro de la Card con la imagen aumentada  */
   /* .services__data {
     position: absolute;
     bottom: 10rem;
@@ -1549,7 +1549,7 @@ input {
 }
 
 /** Hidden styles for video on mobiles*/
-/*# --------------------------------- */
+/** --------------------------------- */
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .div-desktop {
     display: none;
@@ -1563,7 +1563,7 @@ input {
 }
 
 /** Show styles for video on desktop */
-/*# -------------------------------- */
+/** -------------------------------- */
 
 @media screen and (min-width: 769px) and (max-width: 3000px) {
   .div-desktop {
@@ -1574,7 +1574,7 @@ input {
   }
 }
 
-/*# For tall screens on mobiles y desktop*/
+/** For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
   body {
     margin: 0;
