@@ -37,15 +37,17 @@
   --white-color-opacity: rgba(255, 255, 255, 0.6);
   --black-color-opacity: rgba(0, 0, 0, 0.5);
 
-  /** Slider infinita (Sitios Turisticos */
+  /*: Slider infinita (Sitios Turisticos */
   --background-slider: transparent;
+  --background-slider-gradient: transparent;
+  --box-shadow-slider: 0 0 0.5rem #e3e3e3;
 
-  --background-slider-gradient: linear-gradient(
+  /* --background-slider-gradient: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0) 100%
-  );
-  /* --box-shadow-slider: 0 0 0.08rem hsl(190, 8%, 60%); */
+  ); */
+  /* --box-shadow-slider: -1rem 0 1.5rem #e3e3e3; */
 
   /*========== Colors ==========*/
   /* Change favorite color to match images */
@@ -125,6 +127,7 @@ body.dark-theme {
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   --sitios-color: hsl(var(--hue-color), 100%, 99%);
+  --box-shadow-slider: 1rem 0 1.5rem hsl(190, 54%, 12%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -1050,10 +1053,7 @@ option {
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.1em;
   transform: rotate(-25deg);
-  /* box-shadow: var(--box-shadow-slider); */
-  /* border-radius: 0 0 3rem 0;
-  border-top: 0.5px solid var(--first-color);
-  border-left: 0.5px solid var(--first-color); */
+  box-shadow: var(--box-shadow-slider);
 
   /* To be use for smartphone viewport only */
   display: none;
@@ -1095,6 +1095,7 @@ option {
 .slider::before,
 .slider::after {
   /* background: var(--background-slider-gradient); */
+  background: transparent;
   content: "";
   height: 250px;
   position: absolute;
