@@ -39,12 +39,13 @@
 
   /** Slider infinita (Sitios Turisticos */
   --background-slider: transparent;
+
   --background-slider-gradient: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  --box-shadow-slider: -1rem 0 1.5rem #e3e3e3;
+  /* --box-shadow-slider: 0 0 0.08rem hsl(190, 8%, 60%); */
 
   /*========== Colors ==========*/
   /* Change favorite color to match images */
@@ -61,6 +62,7 @@
   --input-color: hsl(var(--hue-color), 24%, 97%);
   --body-color: hsl(var(--hue-color), 100%, 99%);
   --white-color: #fff;
+  --sitios-color: hsl(var(--hue-color), 64%, 22%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
 
@@ -122,6 +124,7 @@ body.dark-theme {
   --body-color: hsl(var(--hue-color), 29%, 12%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --sitios-color: hsl(var(--hue-color), 100%, 99%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -194,6 +197,7 @@ input {
   border: none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  color: var(--input-color);
 }
 
 button {
@@ -528,6 +532,7 @@ input {
   position: relative;
   width: 200px;
   overflow: var(--img-hidden);
+  border-radius: 0.5rem;
 }
 
 .discover__data {
@@ -662,6 +667,7 @@ input {
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
+  border-radius: 0.5rem;
 }
 
 .place__card:hover .place__img {
@@ -670,6 +676,10 @@ input {
 
 .place__img {
   transition: var(--img-transition);
+}
+
+.place__content {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .place__content,
@@ -759,7 +769,8 @@ input {
   display: block;
   font-size: 8px;
   font-weight: 300;
-  color: var(--color-green);
+  /* color: var(--color-green); */
+  color: var(--white-color);
   text-align: justify;
   padding: 10px;
   line-height: 1rem;
@@ -800,7 +811,6 @@ input {
 .registro__title h2 {
   margin-top: 2rem;
   margin-bottom: 0;
-  /* text-transform: uppercase; */
   text-align: center;
   color: var(--white-color);
 }
@@ -820,7 +830,6 @@ input {
 }
 
 .registro-form {
-  /* margin: 2rem auto; */
   margin: 0;
   padding: 1rem;
   width: 400px;
@@ -840,18 +849,25 @@ input {
 .registro-form label {
   font-size: 0.85rem;
   font-family: var(--title-font);
-  background: var(--white-color-opacity);
+  background: rgba(77, 80, 97, 0.5);
+  color: var(--white-color);
   border: 0;
 }
 
+select,
+option {
+  background-color: teal;
+}
+
+/* Selección de posadas */
 .registro-form select {
   border-bottom: thin solid var(--first-color-registro);
+  font-size: 0.8rem;
+  font-family: var(--title-font);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   padding: 1em 4em 1em 1.5em;
   background: rgba(77, 80, 97, 0.5);
   color: var(--white-color);
-  font-size: 0.8rem;
-  font-family: var(--title-font);
 }
 
 .registro-form input[type="text"] {
@@ -865,8 +881,7 @@ input {
 }
 
 .registro-form label {
-  color: var(--color-twitter);
-  /* color: var(--first-color-registro); */
+  color: var(--white-color);
   border: 0;
   padding-left: 0;
 }
@@ -879,9 +894,7 @@ input {
   font-weight: 500;
   text-align: center;
   text-decoration: none;
-  /* color: var(--white-color); */
-  color: black;
-  background: var(--white-color-opacity);
+  color: var(--white-color);
   border: 0;
   letter-spacing: 1px;
   font-family: var(--title-font);
@@ -898,8 +911,12 @@ input {
   background-color: var(--first-color-registro);
 }
 
+/* .registro-form input::placeholder {
+  color: red;
+} */
+
 .registro-form *::placeholder {
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 /**  Zona REGISTRO: Ventana Modal */
@@ -1029,11 +1046,15 @@ input {
   font-size: 1.5rem;
   font-weight: bold;
   background: var(--background-slider);
-  color: var(--first-color);
+  color: var(--sitios-color);
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.1em;
   transform: rotate(-25deg);
-  box-shadow: var(--box-shadow-slider);
+  /* box-shadow: var(--box-shadow-slider); */
+  /* border-radius: 0 0 3rem 0;
+  border-top: 0.5px solid var(--first-color);
+  border-left: 0.5px solid var(--first-color); */
+
   /* To be use for smartphone viewport only */
   display: none;
 }
@@ -1048,7 +1069,7 @@ input {
 .posicion-box-texto .parrafo2-sitios {
   font-size: 1.6em;
   font-weight: bold;
-  color: var(--first-color);
+  color: var(--sitios-color);
   margin: 10px 0;
 }
 
@@ -1073,7 +1094,7 @@ input {
 
 .slider::before,
 .slider::after {
-  background: var(--background-slider-gradient);
+  /* background: var(--background-slider-gradient); */
   content: "";
   height: 250px;
   position: absolute;
