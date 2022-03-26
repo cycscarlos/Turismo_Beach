@@ -792,7 +792,6 @@ input {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  /* background-image: url("./../img/registro.jpg"); */
   background-image: url("./../img/BGvideo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -865,12 +864,12 @@ option {
 /* Selección de posadas */
 .registro-form select {
   border-bottom: thin solid var(--first-color-registro);
-  font-size: 0.8rem;
-  font-family: var(--title-font);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   padding: 1em 4em 1em 1.5em;
   background: rgba(77, 80, 97, 0.5);
   color: var(--white-color);
+  font-size: 0.8rem;
+  font-family: var(--title-font);
 }
 
 .registro-form input[type="text"] {
@@ -914,7 +913,8 @@ option {
   background-color: var(--first-color-registro);
 }
 
-/* .registro-form input::placeholder {
+/* Otra forma de modificar los Placeholder  
+.registro-form input::placeholder {
   color: red;
 } */
 
@@ -1261,9 +1261,18 @@ option {
   color: var(--text-color-light);
 }
 
-.footer__copy span {
-  font-size: var(--minimal-font-size);
+.footer__copy a {
+  color: var(--text-color-light);
+  text-decoration: underline;
 }
+
+.footer__copy a:hover {
+  color: var(--text-color);
+}
+
+/* .footer__copy span {
+  font-size: var(--minimal-font-size);
+} */
 
 .footer__terms {
   display: flex;
