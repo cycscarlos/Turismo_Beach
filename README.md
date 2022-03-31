@@ -1,4 +1,4 @@
-![zCoder Banner!](assets/img/miBanner.png)
+<h2>Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
 
 <br>
 
@@ -6,22 +6,36 @@
 
 <br>
 
-<p style="text-align:justify; font-size:10px">
-This is a Responsive, Multipage, innovating and Modern HTM, CSS & Javascript website which include:
+![Website banner!](assets/img/readme15.png)
 
-- Background images and video
-- Change menu navigation background color on scroll
-- Using of several CSS animation libraries for hover effects on: image, video, buttons, links, cards, sliders, icons, etc.
-- Using of several JavaScript libraries for smooth scrolling, animations, etc.
-- Social media icons definitons
-- Use of Flexbox & Grid technics
-- HTML contact form definition
-- Contact form validation
-- Contact form email sending through external API
-- CSS Custom properties for a lot of effects, like colors, font-size, etc.
-- CSS Clamp variables to make easy the responsive mode process
-- Definitions of Google Analytics for Crowlers, and much more...
-- Responsive design
-- Dark mode for the website
+<br>
 
-</p>
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Turismo_Beach/):
+
+<br>
+
+---
+
+<br>
+
+<h3>Its include the following features:</h3>
+
+<br>
+
+<ul>
+<li>Background images</li>
+<li>Background video</li>
+<li>Change menu navigation background color on scroll</li>
+<li>Using of several CSS animation libraries for hover effects</li>
+<li>Using of several JavaScript libraries for smooth scrolling, animations, etc.</li>
+<li>Social media icons definitons</li>
+<li>Use of Flexbox & Grid technics</li>
+<li>HTML Form for contact management through 3er-parties</li>
+<li>Contact form validation</li>
+<li>Contact form email sending through external API</li>
+<li>Responsive design using Media Queries</li>
+<li>CSS Custom properties for a lot of effects, like colors, font-size, etc.</li>
+<li>Responsive techniques for different devices, usng a CSS Clamp custom properties</li>
+<li>Definitions of Google Analytics for Crowlers, and much more...</li>
+<li>Dark mode for the website</li>
+</ul>
